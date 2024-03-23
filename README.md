@@ -1,6 +1,6 @@
-# GNU Windows Extension
+# ZLIB
 
-This template helps a lot in building docs and understanding GNU Windows Extension source code, building and other related documents
+zlib 1.3.1 is a general purpose data compression library.
 
 ## Build this library
 
@@ -13,10 +13,6 @@ To build this library, you will need:
 > :warning:
 >
 > Ensure you can run `make`, `gcc`  and `g++` from the command line without issues.
-
-Additionally, you may need to install these libraries:
-
-* [Lib 1]()
 
 Just run the  following commands in a terminal window to get started:
 
