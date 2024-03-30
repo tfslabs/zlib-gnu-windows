@@ -60,13 +60,13 @@
     <ATTRIBUTE name="CurrentFeature" value="MainFeature"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.MsiFilesComponent">
-    <ROW File="libzlib.dll" Component_="libzlib.dll" FileName="libzlib.dll" Attributes="0" SourcePath="..\..\.bin\zlib\.bin\bin\libzlib.dll" SelfReg="false"/>
-    <ROW File="zconf.h" Component_="zconf.h" FileName="zconf.h" Attributes="0" SourcePath="..\..\.bin\zlib\.bin\include\zconf.h" SelfReg="false"/>
-    <ROW File="zlib.h" Component_="zconf.h" FileName="zlib.h" Attributes="0" SourcePath="..\..\.bin\zlib\.bin\include\zlib.h" SelfReg="false"/>
-    <ROW File="libzlib.dll.a" Component_="libzlib.dll.a" FileName="LIBZLI~1.A|libzlib.dll.a" Attributes="0" SourcePath="..\..\.bin\zlib\.bin\lib\libzlib.dll.a" SelfReg="false"/>
-    <ROW File="libzlibstatic.a" Component_="libzlib.dll.a" FileName="LIBZLI~2.A|libzlibstatic.a" Attributes="0" SourcePath="..\..\.bin\zlib\.bin\lib\libzlibstatic.a" SelfReg="false"/>
-    <ROW File="zlib.3" Component_="zlib.3" FileName="zlib.3" Attributes="0" SourcePath="..\..\.bin\zlib\.bin\share\man\man3\zlib.3" SelfReg="false"/>
-    <ROW File="zlib.pc" Component_="zlib.pc" FileName="zlib.pc" Attributes="0" SourcePath="..\..\.bin\zlib\.bin\share\pkgconfig\zlib.pc" SelfReg="false"/>
+    <ROW File="libzlib.dll" Component_="libzlib.dll" FileName="libzlib.dll" Attributes="0" SourcePath="..\..\.bin\zlib-gnu-windows\bootstrap\bin\libzlib.dll" SelfReg="false"/>
+    <ROW File="zconf.h" Component_="zconf.h" FileName="zconf.h" Attributes="0" SourcePath="..\..\.bin\zlib-gnu-windows\bootstrap\include\zconf.h" SelfReg="false"/>
+    <ROW File="zlib.h" Component_="zconf.h" FileName="zlib.h" Attributes="0" SourcePath="..\..\.bin\zlib-gnu-windows\bootstrap\include\zlib.h" SelfReg="false"/>
+    <ROW File="libzlib.dll.a" Component_="libzlib.dll.a" FileName="LIBZLI~1.A|libzlib.dll.a" Attributes="0" SourcePath="..\..\.bin\zlib-gnu-windows\bootstrap\lib\libzlib.dll.a" SelfReg="false"/>
+    <ROW File="libzlibstatic.a" Component_="libzlib.dll.a" FileName="LIBZLI~2.A|libzlibstatic.a" Attributes="0" SourcePath="..\..\.bin\zlib-gnu-windows\bootstrap\lib\libzlibstatic.a" SelfReg="false"/>
+    <ROW File="zlib.3" Component_="zlib.3" FileName="zlib.3" Attributes="0" SourcePath="..\..\.bin\zlib-gnu-windows\bootstrap\share\man\man3\zlib.3" SelfReg="false"/>
+    <ROW File="zlib.pc" Component_="zlib.pc" FileName="zlib.pc" Attributes="0" SourcePath="..\..\.bin\zlib-gnu-windows\bootstrap\share\pkgconfig\zlib.pc" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.BootstrOptComponent">
     <ROW BootstrOptKey="GlobalOptions" DownloadFolder="[AppDataFolder][|Manufacturer]\[|ProductName]\prerequisites" Options="2"/>
